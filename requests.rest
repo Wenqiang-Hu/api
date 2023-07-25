@@ -9,3 +9,7 @@ Content-Type: application/json
 {
     "text": "get the bread"
 }
+
+###
+
+Delete http://localhost:3001/todo/delete/64bf636670b9f63a7942c595
