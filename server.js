@@ -1,6 +1,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
+const Todo = require('./models/Todo');
 
 // initiate the backend server app
 const app = express();
