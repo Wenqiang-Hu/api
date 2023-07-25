@@ -1,1 +1,11 @@
 GET http://localhost:3001/todos
+
+####
+
+POST http://localhost:3001/todo/new
+Content-Type: application/json
+# here has to have a line break 
+
+{
+    "text": "get the bread"
+}
