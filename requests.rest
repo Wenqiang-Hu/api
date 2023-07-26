@@ -7,9 +7,13 @@ Content-Type: application/json
 # here has to have a line break 
 
 {
-    "text": "get the bread"
+    "text": "get the milk"
 }
 
 ###
 
 Delete http://localhost:3001/todo/delete/64bf636670b9f63a7942c595
+
+###
+
+Put http://localhost:3001/todo/complete/64bf635c70b9f63a7942c593
